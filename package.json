@@ -1,0 +1,24 @@
+{
+  "name": "anonymous-chat-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "iterare": "1.2.1",
+    "node-vk-bot-api": "^3.5.0",
+    "reflect-metadata": "^0.1.13",
+    "tslib": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.16"
+  }
+}
